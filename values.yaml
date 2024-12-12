@@ -109,7 +109,7 @@ extraEnv: |
     - name: KEYCLOAK_ADMIN
       value: admin
     - name: KEYCLOAK_ADMIN_PASSWORD
-      value: digiformkeycloak
+      value: admin
 
 # Additional environment variables for Keycloak mapped from Secret or ConfigMap
 extraEnvFrom: ""
